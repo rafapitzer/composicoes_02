@@ -10,6 +10,12 @@ public class OrderItem {
 	public OrderItem() {
 	}
 
+	public OrderItem(Integer quantity, Double price, Product product) {
+		this.quantity = quantity;
+		this.price = price;
+		this.product = product;
+	}
+
 	public Integer getQuantity() {
 		return quantity;
 	}
